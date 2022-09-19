@@ -1,1 +1,14 @@
+Create database in phpmyadmin as bms.
+It has 3 tables.
+1.buyer
+2.product
+3.payment
 
+1.buyer table
+Query:  create table buyer( name varchar(100),contactNo varchar(100),email varchar(100),address varchar(100),gender varchar(20));
+   
+2.product table
+Query:  create table product(  pId int(5),pName varchar(100),rate int(10),description varchar(100),activate varchar(10);
+
+3.payment table
+Query:  create table payment( name varchar(100),contactNo varchar(100),pId int(5),pName varchar(100),Date varchar(30),Time varchar(30),Total varchar(10),Paid_amount varchar(10),Return_amount varchar(10));
